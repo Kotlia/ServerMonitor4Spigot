@@ -1,0 +1,24 @@
+{
+  "name": "servermonitor4spigot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/js/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main/js/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kotlia/ServerMonitor4Spigot.git"
+  },
+  "author": "Kotlia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kotlia/ServerMonitor4Spigot/issues"
+  },
+  "homepage": "https://github.com/Kotlia/ServerMonitor4Spigot#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
