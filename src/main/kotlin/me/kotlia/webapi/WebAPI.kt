@@ -14,7 +14,7 @@ class WebAPI(port: Int) {
         )
         app.use(Middleware.cors(option))
         app.listen(port)
-        listOf(Root, Sysinfo, Server).forEach { it.init() }
+        listOf(Root, Sysinfo, Server, System).forEach { it.init() }
     }
 
     companion object {
